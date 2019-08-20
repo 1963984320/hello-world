@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Microsoft YaHei';
+    color:#666;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:link,a:visited{
+    color:#666;
+}
+.main{
+    width: 1200px;
+    height: 500px;
+    margin:30px auto;
+    overflow:hidden;
+    border-radius: 5px;
+    border:1px solid rgba(66,66,66,0.1);
+}
+}
+nav, ul{
+    width:1200px;
+    height:40px
+}
+li{
+    width:25%;
+    height:40px;
+    float: left;
+    text-align: center;
+    line-height:40px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.banner a:first-child{
+    display:none;
+}
